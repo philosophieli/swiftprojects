@@ -13,6 +13,7 @@
 		BAE9ADEE1AFFF46A0062E997 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAE9ADED1AFFF46A0062E997 /* Images.xcassets */; };
 		BAE9ADF11AFFF46A0062E997 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAE9ADEF1AFFF46A0062E997 /* LaunchScreen.xib */; };
 		BAE9ADFD1AFFF46A0062E997 /* FinalProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE9ADFC1AFFF46A0062E997 /* FinalProjectTests.swift */; };
+		BAE9AE091B0037C40062E997 /* BoardButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE9AE081B0037C40062E997 /* BoardButtons.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		BAE9ADF61AFFF46A0062E997 /* FinalProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinalProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAE9ADFB1AFFF46A0062E997 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BAE9ADFC1AFFF46A0062E997 /* FinalProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalProjectTests.swift; sourceTree = "<group>"; };
+		BAE9AE081B0037C40062E997 /* BoardButtons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoardButtons.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				BAE9ADE61AFFF46A0062E997 /* AppDelegate.swift */,
 				BAE9ADE81AFFF46A0062E997 /* ViewController.swift */,
+				BAE9AE081B0037C40062E997 /* BoardButtons.swift */,
 				BAE9ADEA1AFFF46A0062E997 /* Main.storyboard */,
 				BAE9ADED1AFFF46A0062E997 /* Images.xcassets */,
 				BAE9ADEF1AFFF46A0062E997 /* LaunchScreen.xib */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAE9AE091B0037C40062E997 /* BoardButtons.swift in Sources */,
 				BAE9ADE91AFFF46A0062E997 /* ViewController.swift in Sources */,
 				BAE9ADE71AFFF46A0062E997 /* AppDelegate.swift in Sources */,
 			);
